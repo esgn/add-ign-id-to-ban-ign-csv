@@ -32,5 +32,5 @@ for ban_f in os.listdir("ban"):
             print("source : " + str(len(df_ban.index)) + " lignes")
             print("source : " + str(len(result.index)) + " lignes")
             sys.exit(0)
-        out_file = 'ban-ign-id-'+n+'.csv.gz'
+        out_file = 'ban-'+n+'.csv.gz'
         result.to_csv(os.path.join(out_dir,out_file),index=False,encoding='utf-8',sep=';',compression='gzip')
