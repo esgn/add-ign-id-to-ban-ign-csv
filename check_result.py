@@ -7,7 +7,7 @@ import sys
 import re
 import shutil
 
-ban_ign_id_t = "ban-ign-id-{}.csv.gz"
+ban_ign_id_t = "ban-{}.csv.gz"
 ban_p = re.compile("^ban-([AB0-9]+).csv.gz")
 result_dir = "ban-ign-id"
 source_dir = "ban"
