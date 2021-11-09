@@ -1,5 +1,9 @@
 # add-ign-id-to-ban-ign-csv
 
+## Préalables
+
+`pip3 install -r requirements.txt`
+
 ## Récupération des fichiers de la BAN IGN 
 
 Le script `01_get_csv.py` récupère les CSV `ban-dept` et `housenumber-id-ign-dept`.
